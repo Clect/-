@@ -1,0 +1,65 @@
+.promise{
+    padding-top: 0.5em;
+}
+.promise .border{
+    position: relative;
+}
+.promise .border img{
+    display: block;
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+}
+.promise .border_top{
+    height: 1.2em;
+    font-size: 1.2em;
+}
+@media screen and (max-width:420px){
+    .promise .border_top{
+        font-size: 1.1em;
+    }
+}
+@media screen and (max-width:340px){
+    .promise .border_top{
+        font-size: 1em;
+    }
+}
+.promise .border_top span{
+    color: #ff7467;
+    display: block;
+    width: 5em;
+    line-height: 1;
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+label{
+    margin-top: 1em;
+}
+.no_selected,.selected{
+    margin-left: 0;
+}
+input+label>.no_selected{
+    display: inline-block;
+}
+input+label>.selected{
+    display: none;
+}
+input:checked+label>.no_selected{
+    display: none;
+}
+input:checked+label>.selected{
+    display: inline-block;
+}
+.buttons{
+    margin: 0.5em 0.5em;
+    padding-bottom: 1em;
+}
+.single_button{
+    margin-top: 1em;
+    width: 90%;
+}

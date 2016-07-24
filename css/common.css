@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    word-break: break-all;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ededed;
+}
+p{
+    padding: 0.5em 10px;
+    vertical-align: middle;
+    line-height: 1.8;
+}
+.block{
+    display: block;
+    margin-bottom: 25px;
+    background: #fff;
+}
+.last{
+    margin-bottom: 0;
+}
+.icon{
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin: 0 0.25em;
+    vertical-align: middle;
+}
+.quest{
+    background-image: url("../img/quest.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.button{
+    text-align: center;
+    color: #fff;
+    line-height: 240%;
+    padding: 0 35%;
+    height: 2.4em;
+    overflow: hidden;    
+    text-align: justify;
+    text-justify: inter-ideograph;
+    text-align-last: justify;
+    -moz-text-align-last: justify;
+}
+.button::after{
+    display: inline-block;
+    content: '';
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+}
+.single_button{
+    background: #4ccdb6;
+    border-radius: 5px;
+    width: 90%;
+    margin: auto;
+}
