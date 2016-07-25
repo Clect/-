@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: '黑体';
+    font-weight: 200;
+}
+body{
+    background-color: #EDEDED;
+}
+.result .top{
+    height:200px; 
+    width: 100%;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.result .top .p1{
+    color: #4ECDB6;
+    text-align: center;
+    margin: 20px;
+} 
+.result .tap{
+    width: 100%;
+    background-color: white;
+    height: 100px;
+    position: relative;
+    border-bottom: 1px solid #4ECDB6;
+}
+.result .tap td{
+    text-align: center;
+    border: 0px;
+}
+.result .tap td .icon{
+    display: block;
+    margin: 5px auto;
+    width: 30px;
+}
+.result .tap td .bottomArrow{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    width: 33%;
+}
+.result .tap td .jbfxNum,.wxysNum,.yhjbNum{
+    width: 14px;
+    height: 14px;
+    border-radius: 6px;
+    font-size: 12px;
+    background-color: #FF7467;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 3px;
+}
+.result .tap td span{
+    display: inline-block;
+    line-height: 14px;
+    vertical-align: middle;
+    font-size: 14px;
+}
+.result .advice{
+    padding: 10px 10px;
+    background-color: white;
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    border-bottom: 1px solid #4ECDB6;
+}
+.result .detail{
+    padding-bottom: 0px;
+}
+.result .detail p:first-of-type{
+    padding-bottom: 5px;
+    border-bottom: 1px solid #4ECDB6;
+}
+.result .detail .d{
+    text-align: right;
+    line-height: 30px;
+    color: #4ECDB6;
+}
+.result .ad{
+    background-color: white;
+    margin-top: 15px;
+}
+.result .ad .title{
+    position: relative;
+    line-height: 30px;
+    border-bottom: 1px solid #4ECDB6;
+    vertical-align: middle;
+}
+.result .ad .title .leftArrow{
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.result .ad .title span{
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 200;
+    
+}
+.result .ad .title .rightArrow{
+    position: absolute;
+    right: 11px;
+    top: 15px;
+    height: 18px;
+    
+}
