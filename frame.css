@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+body{
+    overflow: hidden;
+}
+.status{
+    height: 88vh;
+    position: fixed;
+    left: 0;
+    top: 2vh;
+    z-index: 100;
+}
+.status img{
+    height: 100%;
+}
+.buttons{
+    height: 8vh;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+.buttons div{
+    width: 50%;
+    height: 100%;
+    line-height: 8vh;
+    text-align: center;
+    float: left;
+    color: #fff;
+    background-color: #4ccdb6;
+    box-shadow: 0px -3px 13px rgba(169, 169, 169, 0.5);
+}
+.buttons div:first-child{
+    background-color: #5ddaf0;
+}
+.content{
+    left: 8.4vh;
+    right: 0;
+    height: 100vh;
+    position: absolute;
+    overflow-y: auto;
+}
+.content::after{
+    content: "";
+    height: 10vh;
+    display: block;
+}
