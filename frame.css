@@ -7,6 +7,12 @@
 body{
     overflow: hidden;
 }
+p{
+    margin: 1em 0;
+}
+ul, li{
+    list-style: none;
+}
 .status{
     height: 88vh;
     position: fixed;
@@ -35,11 +41,14 @@ body{
     background-color: #4ccdb6;
     box-shadow: 0px -3px 13px rgba(169, 169, 169, 0.5);
 }
+input[type=radio],input[type=checkbox]{
+    display: none;
+}
 .buttons div:first-child{
     background-color: #5ddaf0;
 }
 .content{
-    left: 8.4vh;
+    left: 6.4vh;
     right: 0;
     height: 100vh;
     position: absolute;
